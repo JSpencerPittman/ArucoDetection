@@ -1,0 +1,7 @@
+# development environment
+.idea
+__pycache__
+env
+
+# generated data
+aruco
