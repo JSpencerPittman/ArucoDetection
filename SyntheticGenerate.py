@@ -2,7 +2,7 @@ import cv2
 import os
 import random
 import yaml
-from Tag import Tag  # Assuming the previously translated Tag class is saved as Tag.py
+from Tag import Tag
 
 CLASS_ID = 0
 
