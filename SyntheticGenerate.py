@@ -6,7 +6,7 @@ from Tag import Tag
 
 CLASS_ID = 0
 
-with open("config.yml", "r") as file:
+with open("SyntheticConfig.yml", "r") as file:
     config = yaml.safe_load(file)
 
 
