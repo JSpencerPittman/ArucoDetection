@@ -21,7 +21,7 @@ class Tag:
         return self.m_size
 
     def draw_marker(self, image):
-        dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
+        dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
         marker = cv2.aruco.generateImageMarker(dictionary, self.m_id, self.m_size)
         marker = cv2.cvtColor(marker, cv2.COLOR_GRAY2BGR)
         if self.m_blur > 0:

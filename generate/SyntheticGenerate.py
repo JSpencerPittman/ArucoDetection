@@ -2,7 +2,7 @@ import cv2
 import os
 import random
 import yaml
-from Tag import Tag
+from generate.Tag import Tag
 
 CLASS_ID = 0
 

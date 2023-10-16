@@ -1,7 +1,7 @@
 import cv2
 import os
 import yaml
-from Tag import Tag
+from generate.Tag import Tag
 import numpy as np
 
 with open("GenerateConfig.yml", "r") as file:
